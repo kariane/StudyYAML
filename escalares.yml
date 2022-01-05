@@ -1,0 +1,31 @@
+# valores escalares são valores únicos, diferente de arrays, maps
+host: kariane
+datacenter:
+  location: Sao Paulo
+  # se esses valores n forem usados para calculos, prefira apresentar eles como string
+  router: '20' # aspas simples n aceita \n ou algo do tipo
+  switch: "34"
+roles:
+  - webserver
+  - database
+# Valores escalares de multiplas linhas
+# preserva as estruturas das linhas:
+funcionamento: |
+  segunda - das 08:00 às 17:00
+  terca - das 09:00 às 18:00
+  quarta - das 10:00 às 19:00
+  quinta - das 08:00 às 17:00
+  sexta - das 08:00 às 17:00
+  sabado - das 08:00 às 17:00
+  domingo - das 08:00 às 17:00
+# nao preserva as estruturas das linhas:
+# Texto: Temos alto uso de CPU desde 04/10/2020. Estamos investigando.
+# Kariane Coura karianecoura@
+comentarios: > # apresenta o texto abaixo como se tivesse tudo na mesma linha
+
+  Temos alto uso de CPU
+  desde 04/10/2020.
+  Estamos investigando.
+
+    Kariane Coura
+    karianecoura@

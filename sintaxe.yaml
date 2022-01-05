@@ -1,0 +1,17 @@
+# não use tabs, use espaços
+# use traços para fazer listas e dois pontos para fazer par chave e valor
+
+# Key Value Pair:
+Fruit: apple
+
+# Array/lists:
+Fruits:
+  - orange
+  - apple
+  - banana
+
+# Dictionary/Map:
+Banana:
+  Calories: 105
+  Fat: 0.4 g
+  Carbs: 27 g

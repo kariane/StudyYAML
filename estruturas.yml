@@ -1,0 +1,12 @@
+# marcar o inicio de uma diretiva ou configuraçao:
+---
+host: kariane
+datacenter:
+  location: São Paulo
+  router: 30
+---
+host: Miguel
+datacenter:
+  location: São Paulo
+  router: 34
+# em arquivos com uma única configuração essa marcacao é opcional

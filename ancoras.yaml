@@ -1,0 +1,15 @@
+# Utilizamos âncoras para armazenar e reusar dados
+# para definir uma âncora utilizamos: & e para referenciar/fazer uso: *
+---
+host: kariane
+datacenter:
+  location: &SP São Paulo
+roles: &ghost
+  -webserver
+  -database
+---
+host: kari
+datacenter:
+  location: *SP
+roles: *ghost
+---

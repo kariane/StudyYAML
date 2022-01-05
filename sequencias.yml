@@ -1,0 +1,7 @@
+# As sequencias podem ser listas, arrays, colecoes e tbm uma combinaçao entre elas
+# ex:
+roles:
+  - webserver
+  - database
+# para ter uma sequencia é importante que haja um mapeamento
+#s equencia é uma lista de valores

@@ -1,0 +1,13 @@
+# block
+host: kariane
+datacenter:
+  location: São Paulo
+  router: 30
+roles:
+  - web
+  - dns
+# flow
+host1: "kariane"
+datacenter1: { location:
+  São Paulo, router: 30 }
+roles1: [ web, dns ]

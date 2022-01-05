@@ -1,0 +1,16 @@
+# Configura URI ou URL própria usando um prefixo:
+%TAG ! tag:host:kariane:
+---
+#vscode n reconhece
+host: kariane
+datacenter:
+  # location: !KARIANE São Paulo
+  router:: "42"
+  switch: "34"
+---
+#metodo mais usado de tags
+host: kariane
+datacenter:
+  location: Sao Paulo
+  router: !!str 45 # string
+  switch: !!str 23
